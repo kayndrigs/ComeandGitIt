@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(void){
-    int firstNumber, secondNumber, sumOfTwoNumbers, diffOfTwoNumbers;
+    int firstNumber, secondNumber, sumOfTwoNumbers, diffOfTwoNumbers, prodOfTwoNumbers, quotOfTwoNumbers;
 
     cout << "Enter first number: ";
     cin >> firstNumber;
@@ -12,10 +12,14 @@ int main(void){
 
     sumOfTwoNumbers = firstNumber + secondNumber;
     diffOfTwoNumbers = firstNumber - secondNumber;
+    prodOfTwoNumbers = firstNumber * secondNumber;
+    quotOfTwoNumbers = firstNumber / secondNumber;
 
     //Prints sum
     cout << endl << firstNumber <<" + "<< secondNumber <<" = "<<sumOfTwoNumbers;
     cout << endl << firstNumber <<" - "<< secondNumber <<" = "<<diffOfTwoNumbers;
+    cout << endl << firstNumber <<" x "<< secondNumber <<" = "<<prodOfTwoNumbers;
+    cout << endl << firstNumber <<" / "<< secondNumber <<" = "<<quotOfTwoNumbers;
 
     return 0;
 
