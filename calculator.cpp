@@ -3,6 +3,8 @@
 using namespace std;
 
 int main(void){
+    cout<< "CALCULATOR BY KAYNE RODRIGO"<<endl;
+    cout<<"_______________________________";
     int firstNumber, secondNumber, sumOfTwoNumbers, diffOfTwoNumbers, prodOfTwoNumbers, quotOfTwoNumbers, modOfTwoNumbers;
 
     cout << "Enter first number: ";
